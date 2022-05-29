@@ -6,9 +6,9 @@ import authRouter from './routes/auth.route.js'
 const app = express();
 
 app.use(express.json())
-app.use('/api/v1', authRouter)
+app.use('/api/v1/auth', authRouter)
 
-//todas las rutas que creemos en authRouter empezaran por /api/v1/ de esta manera no hay que ponerlo en cada router.post que hagamos
+///api/v1/ es un path fijo de esta manera no hay que ponerlo en cada router.post que hagamos
 
 //port configuration
 
