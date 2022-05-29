@@ -1,2 +1,3 @@
-# API rest de prueba 
-| Aplicación rest api con mongo, express y JWT 
+# My backend project 
+- Aplicación rest api con mongo, express y JWT 
+- verificación de usuarios con express validator 
