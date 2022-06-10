@@ -1,7 +1,5 @@
 import jwt from 'jsonwebtoken';
 
-//import jwt from 'jsonwebtoken';
-
 export const requireToken = (req, res, next) => {
     try {
        let token = req.headers?.authorization;

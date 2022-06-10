@@ -36,7 +36,6 @@ export const login = async(req, res) =>{
         if(!respuestaPassword)
             return res.status(403).json({ error: 'contraseña incorrecta'});
 
-        //generar token con JWT
         const { token, expiresIn } = generateToken(user.id);
 
         generateRefreshToken(user.id, res);

@@ -6,7 +6,6 @@ import { validationResultExpress } from "../middlewares/validationResultExpress.
 
 const router = express.Router();
 
-//metodo router.post si entramos al navegador no tendremos acceso a esta ruta a no ser que usemos postman o la cambiemos a .get
 
 router.post(
     "/register",
